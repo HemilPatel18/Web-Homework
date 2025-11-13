@@ -1,0 +1,32 @@
+.testimonials-cont{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.testimonial{
+    display: flex;
+    gap: 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    align-items: center;
+    padding: 20px;
+    max-width: 700px;
+    width: 100%;
+    background-color: #031725;
+}
+
+.testimonial-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+.t-title{
+    font-weight: 800;
+}
+.t-name{
+    align-self: flex-end;
+}
